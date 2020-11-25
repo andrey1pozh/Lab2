@@ -6,13 +6,10 @@ public class DoubleTeam extends StatusMove {
     public DoubleTeam(){
         super(Type.NORMAL,0,0);
     }
-    protected void applyOppDamage(Pokemon def, double damage){
-
-    }
 
     protected void applySelfEffects(Pokemon att)    {
         Effect effect = new Effect();
-        effect.stat(Stat.SPEED, +6);
+        effect.stat(Stat.EVASION, +1);
         att.addEffect(effect);
     }
     protected String describe() {

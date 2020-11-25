@@ -8,6 +8,6 @@ public class Poliwag extends Pokemon{
         super(name, level);
         setStats(40, 50, 40, 40, 40, 90);
         setType(Type.WATER);
-        setMove(new RockTomb(), new Lick(), new ShadowBall(), new DoubleTeam());
+        setMove(new Facade(), new IceBeam());
     }
 }

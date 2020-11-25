@@ -8,6 +8,6 @@ public class Milotic extends Feebas {
         super(name, level);
         setStats(95, 60, 79, 100, 125, 81);
         setType(Type.WATER);
-        setMove(new RockTomb(), new Lick(), new ShadowBall(), new DoubleTeam());
+        setMove(new Swagger(), new Facade(), new DoubleTeam(), new Recover());
     }
 }

@@ -8,6 +8,6 @@ public class Poliwhirl extends Poliwag {
         super(name, level);
         setStats(65, 65, 65, 50, 50, 90);
         setType(Type.WATER);
-        setMove(new RockTomb(), new Lick(), new ShadowBall(), new DoubleTeam());
+        setMove(new Facade(), new IceBeam(), new WaterGun());
     }
 }

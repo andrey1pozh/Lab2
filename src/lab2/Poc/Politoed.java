@@ -8,6 +8,6 @@ public class Politoed extends Poliwhirl {
         super(name, level);
         setStats(90, 75, 75, 90, 100, 70);
         setType(Type.WATER);
-        setMove(new RockTomb(), new Lick(), new ShadowBall(), new DoubleTeam());
+        setMove(new Facade(), new IceBeam(), new WaterGun(), new Scald());
     }
 }

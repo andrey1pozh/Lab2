@@ -10,9 +10,9 @@ public class Main {
         b.addAlly(new Kecleon("Kecleon", 30));
         b.addAlly(new Feebas("Feebas", 30));
         b.addAlly(new Milotic("Milotic", 30));
-        b.addFoe(new Poliwag("Poliwag", 1));
-        b.addFoe(new Poliwhirl("Poliwhirl", 1));
-        b.addFoe(new Politoed("Politoed", 1));
+        b.addFoe(new Poliwag("Poliwag", 30));
+        b.addFoe(new Poliwhirl("Poliwhirl", 30));
+        b.addFoe(new Politoed("Politoed", 30));
         b.go();
     }
 }
